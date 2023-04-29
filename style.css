@@ -194,6 +194,405 @@ margin-top: 50px;
         text-decoration: none;
         color: #FFFFFF;
       }
-      @media all and (max-width: 600px) 
+
+
+      /*---------------------MEDIA QUERRIES------------------------*/
+      @media all and (min-width: 892px) and (max-width: 1120px){
+        body{
+        background:#0F0B0B;
+        width: 100%;
+        height: 100vh;
+        }
+        .music-logo{
+          display: none;
+        }
+        .form-header{
+          font-size: 10px;
+          margin-left: 50px;
+        }
+        ::-webkit-input-placeholder{
+          font-size: 10px;
+        }
+        .form-body .form-input {
+          width: 290px;
+        }
+        .form-body{
+          width: 40%;
+          height: 620px;
+          left: 250px;
+          background:#0F0B0B;
+         position: absolute;
+         padding-left: 50px;
+        
+        }
+        .password-text p{
+          margin-bottom: 10px;
+          margin-left: 180px;
+          margin-top: -10px;
+      }
+      .login-text{
+        width: 283px;
+        height: 50px;
+        left: 4px;
+        padding-left: 20px;
+        margin-right: 130px;
+       }
+       .border{
+        width: 100px;
+        margin-left: 15px;
+    }
+    .google-text   {
+      width: 250px;
+      height: 54px;
+     margin-left: 20px;
+      padding: 10px 20px 10px 20px;
+      gap: 14px;
+  }
+  .google-text p{
+    font-size: 14px;
+  }
+  .or{
+    font-size: 15px;
+   margin-left: 10px;
+   margin-right: 0px;
+  }
+  .images img{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    top:12px;
+   }
+   .account-text{
+    font-weight: 700;
+    font-size: 12px;
+    margin-left: 40px;
+}
+.sign-up{
+  font-weight: 700;
+  font-size: 12px;
+ 
+}
+  }  
+  @media all and  (max-width: 890px) and (min-width: 601px) {
+    body{
+      background: #0F0B0B;
+      width: 100%;
+      height: 100vh;
+      }
+      .music-logo{
+        display: none;
+      }
+    .form-body .form-input {
+      width: 270px;
+     
+    }
+    .password-text p{
+      margin-left: 170px;
+  }
+  .login-text{
+    width: 230px;
+    height: 50px;
+    margin-left: 30px;
+   }
+   .login-text p{
+    margin: auto;
+   }
+   .border{
+    width: 80px;
+    margin-left: 30px;
+}
+.google-text   {
+  width: 250px;
+  height: 54px;
+ margin-left: 10px;
+  padding: 10px 20px 10px 20px;
+  gap: 14px;
+}
+.google-text p{
+  font-size: 11px;
+}
+.account-text{
+ 
+  font-size: 15px;
+  margin-left: 20px;
+}
+.sign-up{
+font-weight: 700;
+font-size: 15px;
+
+}
+.form-body{
+  width: 40%;
+  height: 620px;
+  left: 260px;
+  background:#0F0B0B;
+ position: absolute;
+ padding-left: 50px;
+
+}
+  }
+@media all and  (max-width: 600px) and (min-width: 400px){
+  body{
+    background: #0F0B0B;
+    width: 100%;
+    height: 100vh;
+    }
+  .music-logo img{
+   display: none;
+   }
+
+  .form-header{
+    font-size:9px;
+    margin-left: 130px;
+  }
+  .form-body{
+    width: 50%;
+    height: 620px;
+    left: 50px;
+    background:#0F0B0B;
+   position: absolute;
+   padding-left: 30px;
+  
+  }
+  .form-body .form-input {
+    width: 420px;
+    
+   
+  }
+  .login-text{
+
+ 
+    width: 420px;
+    height: 54px;
+   margin-left: 2px;
+    top: 384px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+   }
+   .password-text p{
+   text-align: justify;
+   margin-left: 170px;
+   width: 100%;
+}
+::-webkit-input-placeholder{
+  font-size: 12px;
+}
+.border{
+  display: none;
+}
+.or{
+  font-size: 18px;
+ margin: auto;
+margin-bottom: 20px;
+margin-top: 10px;
+margin-left: 200px;
+}
+.google-text   {
+  width: 410px;
+  height: 54px;
+  margin-left: 10px;
+  padding: 10px 20px 10px 20px;
+  gap: 10px;
+ 
+}
+.google-text p{
+  font-size: 15px;
+  font-weight: 700;
+  display: contents;
+}
+.images img{
+  margin-left: 80px;
+  width: 25px;
+  height: 25px;
+  top:12px;
+ }
+ .footer{
+  text-align: center;
+ justify-content: center;
+ align-items: center;
+ margin-right: -120px;
+ margin-top: 110px;
+ }
+ .account-text{
+  font-weight: 700;
+  font-size: 13px;
+  margin-left: 40px;
+  
+ 
+ 
+}
+.sign-up{
+font-weight: 700;
+font-size: 13px;
+
+}
+  
+}
+@media all and  (max-width: 399px) and (min-width: 300px){
+  body{
+    background:#0F0B0B;
+    width: 100%;
+    height: 70vh;
+    }
+    .music-logo{
+      display: none;
+    }
+  .form-body{
+    width: 100%;
+    height: 620px;
+    margin-right: 10px;
+    background:#0F0B0B;
+   position: absolute;
+   padding-left: 5px;
+  
+  }
+  .form-header{
+    font-size:8px;
+margin-left: 50px;
+  }
+  
+  .form-body .form-input {
+    width: 600px;
+    height: 54px;
+   
+  }
+  .login-text{
+    width: 150px;
+    height: 54px;
+   margin-left: 25px;
+    top: 384px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+   }
+   .password-text p{
+   text-align: justify;
+   margin-left: 170px;
+}
+::-webkit-input-placeholder{
+  font-size: 12px;
+}
+.border{
+  display: none;
+}
+.or{
+  font-size: 18px;
+ margin: auto;
+margin-bottom: 20px;
+margin-top: 10px;
+margin-left: 100px;
+}
+.google-text   {
+  width: 120px;
+  height: 54px;
+  margin: auto;
+  padding: 12px 2px 5px 2px;
+  gap: 7px;
+  margin-left: 40px;
+ 
+}
+.google-text p{
+  font-size: 13px;
+  font-weight: bolder;
+  width: 100%;
+  margin: auto;
+  margin-bottom: -15px;
+}
+.images img{
+  margin-left: 73px;
+  width: 24px;
+  height: 24px;
+  margin-bottom: -15px;
+ 
+ }
+ .account-text{
+  font-weight: 700;
+  font-size: 13px;
+  margin-left: 65px;
+}
+.sign-up{
+font-weight: 700;
+font-size: 13px;
+
+}
+}
+@media all and  (max-width: 414px) {
+  body{
+    background:#0F0B0B;
+    height: 70vh;
+    width: 100%;
+    }
+  .form-body{
+    width: 90%;
+    height: 660px;
+    left: 30px;
+    background:#0F0B0B;
+   position: absolute;
+   padding-left: 10px;
+  
+  }
+  .form-header{
+    font-size:8px;
+   margin-left: 150px;
+   width: 100%;
+  }
+  
+  .form-body .form-input {
+    width: 420px;
+    margin-bottom: 30px;
+   
+  }
+  .password-text{
+ text-align: center;
+    margin-top: -15px;
+    width: 100%;
+    margin-left: 5px;
+  }
+  .login-text{
+    width: 411px;
+    height: 54px;
+   margin-left: 5px;
+    top: 384px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    margin-right: 40px;
+   }
+   .login-text p{
+    margin-right: 10px;
+   }
+   .or{
+    margin-left: 200px;
+   }
+   .google-text{
+    margin-left: 10px;
+   align-items: center;
+   width: 400px;
+   padding:0px 5px 12px
+   }
+   .google-text p{
+    font-size: 16px;
+   }
+   .images{
+    margin-right: 0px;
+   }
+   .footer{
+    margin-top: 220px;
+    margin-left: 20px;
+   }
+   .account-text{
+   
+    text-align: justify;
+    font-size: 15px;
+   
+   }
+   .sign-up{
+font-size: 15px;
+   }
+   .music-logo{
+    display: none;
+  }
+}
+  
+        
+      
        
          
